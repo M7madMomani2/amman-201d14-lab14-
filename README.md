@@ -18,4 +18,4 @@
 * The starter code needs a lot of time ***to be familier with it*** then we start giving ideas and solve the problems.
 
 ## Individual work
-* 
+* I create IMG view with event listener so when we choose the item the IMG box will show with the item name
