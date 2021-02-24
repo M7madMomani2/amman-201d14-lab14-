@@ -1,5 +1,6 @@
 'use strict';
 
+
 // Cart constructor.
 const Cart = function (items) {
   // this.items is an array of CartItem instances.
@@ -38,6 +39,8 @@ const Product = function (filePath, name) {
 };
 Product.allProducts = [];
 
+
+
 function generateCatalog() {
   new Product('assets/bag.jpg', 'Bag');
   new Product('assets/banana.jpg', 'Banana');
@@ -59,7 +62,12 @@ function generateCatalog() {
   new Product('assets/usb.gif', 'USB');
   new Product('assets/water-can.jpg', 'Water Can');
   new Product('assets/wine-glass.jpg', 'Wine Glass');
+
+
 }
 
 // Initialize the app by creating the big list of products with images and names
+
+
+
 generateCatalog();
