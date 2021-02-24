@@ -91,12 +91,12 @@ previewElement.appendChild(ulEl);
 
 function checkimg(){
   let collection = listItems.selectedOptions;
-  let xxx = document.getElementById('catalog')
+  let catalogDiv = document.getElementById('catalog')
   console.log(collection);
   imList.setAttribute('src',Product.allProducts[collection[0].index].filePath);
   textName.textContent= Product.allProducts[collection[0].index].name;
-  cartBlock.appendChild(textName);
-  xxx.appendChild(imList);
+  catalogDiv.appendChild(textName);
+  catalogDiv.appendChild(imList);
 }
 
 
